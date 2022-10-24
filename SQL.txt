@@ -1,0 +1,9 @@
+CREATE TABLE review(
+    id int(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    building varchar(100) NOT NULL,
+    floor int(10) NOT NULL,
+    toilet varchar(100) NOT NULL,
+    rating int(10) NOT NULL,
+    name varchar(100) NOT NULL,
+    reviewing varchar(100) NOT NULL
+)ENGINE= INNODB DEFAULT CHARSET=utf8;
